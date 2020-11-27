@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_nama"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:text="Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_alamat"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit"
+        android:layout_marginTop="12dp"
+        android:background="@color/purple_200"
+        android:text="SUBMIT"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
